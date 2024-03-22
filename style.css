@@ -1,0 +1,378 @@
+    body {
+        background-color: #e4e4e4;
+    }
+    p {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        position: relative;
+    }
+    b {
+        color: black;
+        font-size: 20px;
+        position: relative;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        color: black;
+    }
+    h3 {
+        color: black;
+    }
+    h4 {
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    h5 {
+        font-size: 50px;
+        margin: 0px;
+    }
+    h6 {
+        font-size: 13px;
+        color: grey;
+        margin-top: 30px;
+        margin-bottom: -45px;
+    }
+    label {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }   
+    figure {
+        margin: 0px;
+    } 
+    li {
+        padding: 8px;
+    }
+    
+
+
+    #rcorners {
+        border-radius: 25px;
+        background: #ff5555;
+        padding: 20px;
+        width: 300px;
+        height: 460px;
+        float: right;
+        margin: 20px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+    }
+    #rcornerssend {
+        border-radius: 25px;
+        background: #ff5555;
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+        float: right;
+        margin: 20px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+        font-size: 15px;
+        z-index: -2;
+        position: relative;
+    }
+    #rcornersopskrifter {
+        border-radius: 25px;
+        background: #ff5555;
+        padding: 20px;
+        width: 300px;
+        height: 520px;
+        float: right;
+        margin: 20px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+        font-size: 15px;
+        z-index: -2;
+        position: absolute;
+        margin: -750px 0px 0px 930px;
+    }
+    #rcornersboks {
+        border-radius: 25px;
+        background: white;
+        width: 400px;
+        height: 200px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+        font-size: 15px;
+        z-index: -2;
+    }
+    #rcornersmad {
+        border-radius: 25px;
+        background: #ff5555;
+        padding: 20px;
+        width: 300px;
+        height: 220px;
+        margin: 50px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+        font-size: 15px;
+        position: absolute;
+    }
+    #rcornersartikel {
+        border-radius: 25px;
+        background: #ff5555;
+        padding: 20px;
+        width: 300px;
+        height: 950px;
+        margin: 50px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+        font-size: 15px;
+    }
+    #opskrift {
+        border-radius: 25px;
+        background: white;
+        padding: 20px;
+        width: 400px;
+        height: 200px;
+        margin: 20px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+      }
+
+
+    .topnav {
+        color: #e7de7c;
+        overflow: hidden;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        max-width: 1248px;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    .dropdown .dropbtn {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px 23px;
+        margin: 0;
+        background-color: #e7de7c;
+    }
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .topnav a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(255, 223, 62);
+        color: rgb(0, 0, 0);
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #e7de7c;
+        width: fit-content;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 10px 19.2px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 14px;
+    }
+    .dropdown-content a:hover {
+        background-color: rgb(255, 223, 62);
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .topnav a.active {
+        background-color: rgb(255, 223, 62);
+        color: rgb(0, 0, 0);
+    }
+    .topnav a.active:hover {
+        background-color: rgb(255, 223, 62);
+        color: rgb(0, 0, 0);
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 40px;
+    }
+    .row:after {
+        display: table;
+        clear: both;
+    }
+    .center {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+    .description {
+        margin: 40px;
+    }
+    .carrot {
+        z-index: -1;
+        position: absolute;
+        margin: -40px 0px 0px -45px;
+        opacity: 100%;
+        height: 350px;
+    }
+    .boks {
+        z-index: -2;
+        position: relative;
+        margin: -200px -0px -0px -0px;
+    }
+    .button {
+        background-color: #5ebde0;
+        width: 80px;
+        border-radius: 10px;
+        padding: 3px;
+        float: right;
+        margin: 0px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 5px 0px;
+    }
+    .takbesked {
+        line-height: 25px;
+    }
+    .tilbagetilforside {
+        background-color: #5ebde0;
+        width: 150px;
+        border-radius: 10px;
+        padding: 3px;
+        float: left;
+        margin: 0px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 5px 0px;
+    }
+    .salat {
+        z-index: -1;
+        position: absolute;
+        margin: -30px 0px 0px -125px;
+        opacity: 100%;
+        height: 400px;
+        transform: rotate(-5deg);
+    }
+    .active {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px 23px;
+        margin: 0;
+        background-color: rgb(255, 223, 62);
+    }
+    .velkommen {
+        margin-top: -180px;
+        display: flex;
+        position: absolute;
+        margin-left: 10px;
+    }
+    .tomat {
+        z-index: -1;
+        float: right;
+        margin: -20px 0px 0px 20px;
+        opacity: 100%;
+        height: 200px;
+        transform: rotate(8deg);
+    }
+    .alfabet {
+        color: #0000FF;
+        font-family: serif;
+        margin-left: 20px;
+    }
+    .activealfabet {
+        color: #ff5555;
+    }
+    .boks2 {
+        z-index: -2;
+        position: relative;
+        margin: -110px -0px -0px -0px;
+    }
+    .kategorier {
+        margin: 0px 0px 0px 20px;
+    }
+    .citron {
+        z-index: -1;
+        float: right;
+        margin: -40px -70px 0px 0px;
+        opacity: 100%;
+        height: 400px;
+        transform: rotate(8deg);
+    }
+
+    .sorter {
+        margin: -80px 0px 0px 680px;
+        position: absolute;
+    }
+
+    .columno {
+        width: 33.3%;
+        padding: 40px;
+    }
+  
+    .container {
+        display: flex;
+    }
+    .text {
+        margin: 40px;
+    }
+    .opskriftboks {
+        display: flex;
+    }
+    .tekst {
+        margin-left: 10px;
+        margin-top: -20px;
+    }
+   .pastaret {
+        float: right;
+        margin: 330px 0px 0px 70px;
+    }
+    .border {
+        border: 5px solid #555;
+    }
+    .section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .movein {
+        margin-left: 20px;
+    }
+    .majs {
+        margin: -150px 0px 0px 310px;
+    }
+    .pasta {
+        margin: -70px 0px 0px 300px;
+    }
+    .bacon {
+        margin: -100px 0px 0px 380px;
+    }
+    .her {
+        margin-top: -30px;
+        font-weight: bold;
+    }
+    .peberfrugt {
+        margin: -20px 0px 0px -30px;
+    }
+   .madspild {
+        margin-top: -70px;
+   }
+    .flex {
+        display: flex;
+    }
+    .opskrift {
+        border-radius: 25px;
+        background: white;
+        padding: 20px;
+        width: 400px;
+        height: 200px;
+        margin: 20px;
+        border: 2px solid black;
+        box-shadow: inset 0px 0px 15px 0px;
+      }
